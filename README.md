@@ -1,16 +1,16 @@
-#SQL Database Project for Company Management
+# SQL Database Project for Company Management
 
-##Overview
+## Overview
 Our SQL Database project focuses on creating and managing a company's database to streamline operations. This project highlights key SQL commands and techniques for effective data management.
 
-##Team Members
+## Team Members
 Salma Essam Mohamed Hamad
 Gehad Emad Mohamed Mohamed
 Mirna Sherif Zayed
 Alaa Atef Mustafa
 Noureen Ashraf Aboarab
 
-##Key Features
+## Key Features
 1-Database Creation and Usage
 
 2-Table Creation and Data Integrity
