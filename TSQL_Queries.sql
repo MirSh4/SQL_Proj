@@ -47,6 +47,27 @@ join (select avg(salary) as averageSalary,departmentid from employees group by d
 using( departmentid)
 where salary>averageSalary;
 
+-- Create stored procedure for Q6
+DELIMITER //
+CREATE PROCEDURE GetHighSalaryEmployees()
+BEGIN
+SELECT CONCAT_WS(' ', employees.FirstName, employees.LastName) AS FullName,
+employees.Salary,
+departments.DepartmentName
+FROM employees
+JOIN departments USING (DepartmentID)
+JOIN (
+SELECT AVG(Salary) AS AverageSalary, DepartmentID
+FROM employees
+GROUP BY DepartmentID
+) AS avgSalaryTable USING (DepartmentID)
+WHERE employees. Salary > avgSalaryTable.AverageSalary;
+END //
+CALL GetHighSalaryEmployees();
+
+
+#########################################################################
+
 DELETE a
 FROM Assignments a
 JOIN Employees e ON a.EmployeeID = e.EmployeeID
@@ -62,8 +83,6 @@ WHERE d.DepartmentName = 'IT';
 
 
 #########################################################################
-
-
 
 
 
@@ -116,6 +135,9 @@ select firstname,lastname,departmentname from employees
 JOIN departments 
 using (departmentID)
 where departmentName="IT";
+    
+    
+    
     
     
     
