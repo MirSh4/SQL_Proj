@@ -28,4 +28,4 @@ Noureen Ashraf Aboarab
 
 
 
-Thank you for your interest in our SQL Database project! We look forward to your questions and feedback.
+Thank you for your interest in our SQL Database project! For more details, please check the attached SQL Project.pptx. We look forward to your questions and feedback.
