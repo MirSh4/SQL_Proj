@@ -3,17 +3,6 @@
 ## Overview
 Our SQL Database project focuses on creating and managing a company's database to streamline operations. This project highlights key SQL commands and techniques for effective data management.
 
-## Team Members
-Salma Essam Mohamed Hamad
-
-Gehad Emad Mohamed Mohamed
-
-Mirna Sherif Zayed
-
-Alaa Atef Mustafa
-
-Noureen Ashraf Aboarab
-
 ## Key Features
 1-Database Creation and Usage
 
@@ -27,5 +16,15 @@ Noureen Ashraf Aboarab
 4-Advanced SQL Queries
 
 
+## Team Members
+Salma Essam Mohamed Hamad
+
+Gehad Emad Mohamed Mohamed
+
+Mirna Sherif Zayed
+
+Alaa Atef Mustafa
+
+Noureen Ashraf Aboarab
 
 Thank you for your interest in our SQL Database project! For more details, please check the attached SQL Project.pptx. We look forward to your questions and feedback.
